@@ -18,4 +18,11 @@ public class Car {
     public boolean getautomaticGearbox (){
         return automaticGearbox;
     }
+    public void setColour(String colour){
+        this.colour = colour;
+    }
+
+    public String getColour() {
+        return colour;
+    }
 }
